@@ -11,7 +11,11 @@ public class Data {
 		ano=1970;
 	}
 	
-	Data(int diaInicia,int mesInicial,int anoInicial){
+	Data(int diaInicial,int mesInicial,int anoInicial){
+		dia=diaInicial;
+		mes=mesInicial;
+		ano=anoInicial;
+		
 		
 		
 	}
