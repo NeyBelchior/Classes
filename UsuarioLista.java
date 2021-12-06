@@ -12,11 +12,17 @@ public class UsuarioLista {
 		return "meu nome é " + this.nome+" ";
 	}
 
-	@Override
+	/*@Override
 	public int hashCode() {
-		return Objects.hash(nome);
+		final int prime =31;
+		int result =1;
+		result =prime*result+((nome==null)? 0 :nome.hashCode());
+		return result;
+	}*/
+	@Override
+	public int hashCode(){
+		return 1;
 	}
-
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
