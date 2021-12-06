@@ -21,7 +21,7 @@ public class Usuario {
 			return nomeIgual && emailIgual;
 			}else
 				return false;
-		@Override
+		
 		public int hashCode(){
 			return 0;
 		}
