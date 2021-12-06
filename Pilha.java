@@ -14,12 +14,12 @@ public class Pilha {
 		livros.push("Don Quixote");// retorna uma execption se o elemento que eu tentar adicionar for restrito por restrições de capacidade
         livros.push("O Hobbit");
         
-        System.out.println(livros.peek());
-        System.out.println(livros.element());
-        
         for(String percorre : livros) {
         	System.out.println(percorre);
         }
+        System.out.println(livros.peek());
+        System.out.println(livros.element());
+   
         System.out.println(livros.pop());//joga execessão 
         System.out.println(livros.poll());
         System.out.println(livros.poll());
